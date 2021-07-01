@@ -126,7 +126,12 @@ const styles = StyleSheet.create({
 
   img:{
     flex: 1,
-    alignItems: "center",
+    alignItems: "baseline",
+    
+  },
+
+  img2:{
+    marginLeft: 35,
     
   },
 
@@ -146,6 +151,7 @@ const styles = StyleSheet.create({
   },
   scrollView:{
     marginBottom:120,
+    marginLeft:20,
   },
 
 
