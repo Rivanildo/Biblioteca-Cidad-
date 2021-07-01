@@ -23,14 +23,14 @@ export default function App() {
 <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen options={{headerShown: false}} name="Home" component={Home} />
-        <Stack.Screen  name="Propulsão" component={propulsao} />
+        <Stack.Screen  name="Propulsão" component={propulsao} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
         <Stack.Screen options={{headerShown: true}} name="pomodoro" component={pomodoro} />
        
-        <Stack.Screen name="Projeto de Vida" component={pv}/>
-        <Stack.Screen options={{headerShown: true}} name="Estudo Orientado" component={estudo} />
-        <Stack.Screen options={{headerShown: true}} name="Notícias" component={noticias} />
-        <Stack.Screen options={{headerShown: true}} name="Sobre" component={sobre} />
-        <Stack.Screen options={{headerShown: true}} name="Biblioteca" component={biblioteca} />
+        <Stack.Screen name="Projeto de Vida" component={pv} options={{headerStyle:{backgroundColor: "#ea8198" } }}/>
+        <Stack.Screen options={{headerShown: true}} name="Estudo Orientado" component={estudo} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Notícias" component={noticias} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Sobre" component={sobre} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Biblioteca" component={biblioteca}  />
         <Stack.Screen options={{headerShown: true}} name="Dicionário" component={dicionario} />
       </Stack.Navigator>
     </NavigationContainer>
