@@ -1,0 +1,105 @@
+import React, { useState } from "react";
+import { Image, View,ImageBackground, FlatList, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity } from "react-native";
+ 
+
+
+export default function Home(props) {
+  return (
+    <View style={styles.container}>
+      <ImageBackground source={require('./assets/img/bg.png')} style={styles.img}>
+      
+      <View style = {styles.btns}>
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('pomodoro') }>
+          <Image  source={require('./assets/img/pomodoro.png')}  />
+        </TouchableOpacity>  
+        
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Propulsão') }>
+          <Image  source={require('./assets/img/propulsao.png')}  />
+        </TouchableOpacity>  
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Projeto de Vida') }>
+          <Image  source={require('./assets/img/pv.png')}  />
+        </TouchableOpacity>  
+        
+       
+      </View>
+
+      <View style = {styles.btns2}>
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Estudo Orientado') }>
+          <Image  source={require('./assets/img/EO.png')}  />
+        </TouchableOpacity>  
+        
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Notícias') }>
+          <Image  source={require('./assets/img/noticias.png')}  />
+        </TouchableOpacity>  
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Sobre') }>
+          <Image  source={require('./assets/img/eci.png')}  />
+        </TouchableOpacity>  
+
+      </View>
+
+      <View style = {styles.btns3}>
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Biblioteca') }>
+          <Image  source={require('./assets/img/BIBLIOTECA.png')}  />
+        </TouchableOpacity>  
+        
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Dicionário') }>
+          <Image  source={require('./assets/img/DICIONARIO.png')}  />
+        </TouchableOpacity>  
+       
+      </View>
+
+
+      </ImageBackground>
+
+
+
+    </View>
+
+
+
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+   
+   
+  },
+
+  btns:{
+    flexDirection: "row",
+    marginTop:260,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width:400,
+    marginRight:100
+    
+    
+  },
+
+  btns2:{
+    flexDirection: "row",
+    marginTop:20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width:400,
+    marginRight:100,
+  },
+
+  btns3:{
+    flexDirection: "column",
+    marginTop:10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width:400,
+  
+  },
+
+  img:{
+    flex: 1,
+    alignItems: "stretch",
+    
+  }
+
+});
