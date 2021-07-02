@@ -30,8 +30,8 @@ export default function App() {
         <Stack.Screen options={{headerShown: true}} name="Estudo Orientado" component={estudo} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
         <Stack.Screen options={{headerShown: true}} name="Notícias" component={noticias} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
         <Stack.Screen options={{headerShown: true}} name="Sobre" component={sobre} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
-        <Stack.Screen options={{headerShown: true}} name="Biblioteca" component={biblioteca}  />
-        <Stack.Screen options={{headerShown: true}} name="Dicionário" component={dicionario} />
+        <Stack.Screen options={{headerShown: true}} name="Biblioteca" component={biblioteca}  options={{headerStyle:{backgroundColor: "#2a6dc7" } }}/>
+        <Stack.Screen options={{headerShown: true}} name="Dicionário" component={dicionario} options={{headerStyle:{backgroundColor: "#dcbb71" } }} />
       </Stack.Navigator>
     </NavigationContainer>
 
