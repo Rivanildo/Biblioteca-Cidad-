@@ -3,7 +3,7 @@ import { Image, View,ImageBackground, ScrollView,   FlatList, SafeAreaView, Stat
  
 
 
-export default function Home(props) {
+export default function biblioteca(props) {
   return (
     <View style={styles.container}>
       
@@ -13,7 +13,19 @@ export default function Home(props) {
     
       <ScrollView style={styles.scrollView}>
 
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Humanas') }>
+        <Image  source={require('./assets/sessoes/Ci_humanas.png')} style={styles.img3} />
+      </TouchableOpacity>  
       
+      <Image  source={require('./assets/sessoes/Ci_natureza.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/conhec_matematicos.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/dicionarios.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/empree_inovacao.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/te_estudos.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/manga.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/literatura.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/midias.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/realidade_virtual.png')} style={styles.img3} />
        
       </ScrollView>
     </SafeAreaView>
@@ -38,12 +50,17 @@ const styles = StyleSheet.create({
 
   img:{
     flex: 1,
-    alignItems: "baseline",
+    alignItems: "center",
     
   },
 
   img2:{
     marginLeft: 35,
+    
+  },
+  img3:{
+    marginTop:30,
+    
     
   },
 
@@ -62,8 +79,9 @@ const styles = StyleSheet.create({
 
   },
   scrollView:{
-    marginBottom:120,
+    marginBottom:100,
     marginLeft:20,
+    
   },
 
 

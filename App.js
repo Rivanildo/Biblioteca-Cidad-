@@ -16,6 +16,8 @@ import sobre from './sobre';
 import biblioteca from './biblioteca';
 import dicionario from './dicionario';
 
+import Humanas from './bibSessoes/Chumanas';
+
 export default function App() {
   const Stack = createStackNavigator();
 
@@ -32,6 +34,10 @@ export default function App() {
         <Stack.Screen options={{headerShown: true}} name="Sobre" component={sobre} options={{headerStyle:{backgroundColor: "#ea8198" } }} />
         <Stack.Screen options={{headerShown: true}} name="Biblioteca" component={biblioteca}  options={{headerStyle:{backgroundColor: "#2a6dc7" } }}/>
         <Stack.Screen options={{headerShown: true}} name="Dicionário" component={dicionario} options={{headerStyle:{backgroundColor: "#dcbb71" } }} />
+
+        <Stack.Screen options={{headerShown: false}} name="Humanas" component={Humanas} />
+      
+      
       </Stack.Navigator>
     </NavigationContainer>
 
