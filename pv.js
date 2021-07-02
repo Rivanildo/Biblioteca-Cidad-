@@ -12,9 +12,9 @@ export default function pv(props) {
       <SafeAreaView style={styles.container}>
     
       <ScrollView style={styles.scrollView}>
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.google.com/")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/drive/u/1/folders/1xCHX4EfgfQWLWf2_Ju62cMe4papEcaf5")}>
           
-          
+          Material de projeto de vida
                
         </Text>
        
@@ -47,8 +47,8 @@ const styles = StyleSheet.create({
 
   
   text: {
-    fontSize: 80,
-    marginTop: 40,
+    fontSize: 40,
+    marginTop: 145,
     color: "white",
 
   },

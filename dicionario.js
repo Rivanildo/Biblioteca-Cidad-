@@ -14,7 +14,7 @@
  const IC_ARR_UP = require('./icons/ic_arr_up.png');
  
  type Props = {};
- export default class App extends Component<Props> {
+ export default class dicionario extends Component<Props> {
    state = {
      contents: [
        {
