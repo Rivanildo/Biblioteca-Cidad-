@@ -101,14 +101,7 @@ export default function Humanans(props) {
         Representações culturais da América Indígena
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("")}>
-               
-        </Text>
-
-        <Text style={styles.text} onPress={() => Linking.openURL("")}>
-               
-        </Text>
-
+        
        
       </ScrollView>
     </SafeAreaView>
@@ -137,7 +130,7 @@ const styles = StyleSheet.create({
     
   },
   img2:{
-    marginTop:50,
+    marginTop:60,
     
   },
 
@@ -145,8 +138,9 @@ const styles = StyleSheet.create({
 
   
   text: {
-    fontSize: 40,
-    marginTop: 40,
+    marginLeft:10,
+    fontSize: 20,
+    marginTop: 20,
     color: "white",
 
   },
