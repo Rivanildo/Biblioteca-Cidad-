@@ -53,7 +53,7 @@ export default function App() {
         <Stack.Screen options={{headerShown: true}} name="Manga" component={Manga} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Midias" component={Midias} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Realidade Virtual" component={Realidade} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
-        <Stack.Screen  options={{headerTitle: true}} name="TecEstudos" component={TecEstudos} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="TecEstudos" component={TecEstudos} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
       </Stack.Navigator>
     </NavigationContainer>
 
