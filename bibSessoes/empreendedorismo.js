@@ -13,16 +13,31 @@ export default function Empreendedorismo(props) {
       <SafeAreaView style={styles.container}>
     
       <ScrollView style={styles.scrollView}>
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.amazon.com.br/Termos-para-Entender-Pol%C3%ADtica-Cidadania-ebook/dp/B08JS89CNS/ref=pd_sim_5/146-6739415-5059056?pd_rd_w=PCW2g&pf_rd_p=e9306f50-1947-4ac4-b858-68213661b333&pf_rd_r=SHY5CKM9P396N8XGAHHG&pd_rd_r=2fbe1c60-b55b-484a-84e6-403dec3b2e09&pd_rd_wg=uJQvW&pd_rd_i=B08JS89CNS&psc=1")}>
-        150 Termos para Entender Política (Cidadania)
+        <Text style={styles.text} onPress={() => Linking.openURL("https://empreendedorismosocial.porvir.org/")}>
+        Empreendedorismo Social na Educação: orientações, ferramentas e casos reais para inspirar e apoiar gestores educacionais e professores a prepararem jovens para impactar o mundo: 
+
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/mre000005.pdf")}>
-        A cultura dos Povos Indígenas
+        <Text style={styles.text} onPress={() => Linking.openURL("https://5ca0e999-de9a-47e0-9b77-7e3eeab0592c.usrfiles.com/ugd/5ca0e9_59f401de40084635a1561c77603b63a4.pdf")}>
+        Empreendedorismo como opção de carreira
+
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.amazon.com.br/Participa%C3%A7%C3%A3o-Mulher-Brasileira-Pol%C3%ADtica-ebook/dp/B07T753L8X/ref=reads_cwrtbar_2/146-6739415-5059056?pd_rd_w=yQChx&pf_rd_p=f0989065-fdf0-44f6-89ba-12ac8c8cc0a8&pf_rd_r=SHY5CKM9P396N8XGAHHG&pd_rd_r=2fbe1c60-b55b-484a-84e6-403dec3b2e09&pd_rd_wg=uJQvW&pd_rd_i=B07T753L8X&psc=1")}>
-        A Participação da Mulher Brasileira na Política
+        <Text style={styles.text} onPress={() => Linking.openURL("https://ibqp.org.br/wp-content/uploads/2017/07/GEM_2014-Livro-Empreendedorismo-no-Brasil.pdf.pdf")}>
+        Empreendedorismo no Brasil
+
+        </Text>
+
+        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/fs000349.pdf")}>
+        Empreendedorismo e Educação Empreendedora: Confrontação entre a teoria e a prática
+        </Text>
+
+        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/fs000266.pdf")}>
+        Empreendedorismo e Jovens Empreendedores
+        </Text>
+
+        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/fs000287.pdf")}>
+        Empreendedorismo: uma filosofia para o desenvolvimento sustentável e a redução da pobreza
         </Text>
         
 
