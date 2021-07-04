@@ -16,16 +16,47 @@ export default function biblioteca(props) {
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Humanas') }>
         <Image  source={require('./assets/sessoes/Ci_humanas.png')} style={styles.img3} />
       </TouchableOpacity>  
+
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Naturezas') }>
+       <Image  source={require('./assets/sessoes/Ci_natureza.png')} style={styles.img3} />
+      </TouchableOpacity>
       
-      <Image  source={require('./assets/sessoes/Ci_natureza.png')} style={styles.img3} />
+      
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Matematica') }>
       <Image  source={require('./assets/sessoes/conhec_matematicos.png')} style={styles.img3} />
-      <Image  source={require('./assets/sessoes/dicionarios.png')} style={styles.img3} />
-      <Image  source={require('./assets/sessoes/empree_inovacao.png')} style={styles.img3} />
-      <Image  source={require('./assets/sessoes/te_estudos.png')} style={styles.img3} />
-      <Image  source={require('./assets/sessoes/manga.png')} style={styles.img3} />
+      </TouchableOpacity>  
+
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Dicionarios') }>
+        <Image  source={require('./assets/sessoes/dicionarios.png')} style={styles.img3} />
+      </TouchableOpacity>  
+      
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Empreendedorismo') }>
+        <Image  source={require('./assets/sessoes/empree_inovacao.png')} style={styles.img3} />
+      </TouchableOpacity>
+
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('TecEstudos') }>
+       <Image  source={require('./assets/sessoes/te_estudos.png')} style={styles.img3} />
+      </TouchableOpacity>
+      
+      
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Manga') }>
+        <Image  source={require('./assets/sessoes/manga.png')} style={styles.img3} />
+      </TouchableOpacity>
+
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Literatura') }>
       <Image  source={require('./assets/sessoes/literatura.png')} style={styles.img3} />
-      <Image  source={require('./assets/sessoes/midias.png')} style={styles.img3} />
-      <Image  source={require('./assets/sessoes/realidade_virtual.png')} style={styles.img3} />
+      </TouchableOpacity>
+     
+     
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Midias') }>
+        <Image  source={require('./assets/sessoes/midias.png')} style={styles.img3} />
+      </TouchableOpacity>
+
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Realidade Virtual') }>
+        <Image  source={require('./assets/sessoes/realidade_virtual.png')} style={styles.img3} />
+      </TouchableOpacity>
+
+      
        
       </ScrollView>
     </SafeAreaView>

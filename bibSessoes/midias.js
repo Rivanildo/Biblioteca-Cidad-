@@ -3,12 +3,12 @@ import { Image, View,ImageBackground, ScrollView,   FlatList, SafeAreaView, Stat
  
 
 
-export default function dicionarios(props) {
+export default function Midias(props) {
   return (
-<View style={styles.container}>
+    <View style={styles.container}>
       
       <ImageBackground source={require('../assets/img/bg-biblioteca.png')} style={styles.img}>
-      <Image  source={require('../assets/sessoes/dicionarios.png')} style={styles.img2} />
+      <Image  source={require('../assets/sessoes/midias.png')} style={styles.img2} />
       
       <SafeAreaView style={styles.container}>
     
