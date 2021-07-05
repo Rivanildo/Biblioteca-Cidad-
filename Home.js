@@ -6,7 +6,7 @@ import { Image, View,ImageBackground, FlatList, ScrollView, SafeAreaView, Status
 export default function Home(props) {
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('./assets/img/bg.png')} style={styles.img}>
+      <ImageBackground source={require('./assets/img/bg2.png')} style={styles.img}>
       <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}> 
       <View style = {styles.btns}>
