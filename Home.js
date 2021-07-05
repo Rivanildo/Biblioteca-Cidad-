@@ -10,10 +10,12 @@ export default function Home(props) {
       <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}> 
       <View style = {styles.btns}>
-        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('pomodoro') }>
-          <Image  source={require('./assets/img/pomodoro.png')}  />
-        </TouchableOpacity>  
         
+        
+
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Estudo Orientado') }>
+          <Image  source={require('./assets/img/EO.png')}  />
+        </TouchableOpacity> 
         <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Propulsão') }>
           <Image  source={require('./assets/img/propulsao.png')}  />
         </TouchableOpacity>  
@@ -25,9 +27,9 @@ export default function Home(props) {
       </View>
 
       <View style = {styles.btns2}>
-        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Estudo Orientado') }>
-          <Image  source={require('./assets/img/EO.png')}  />
-        </TouchableOpacity>  
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('pomodoro') }>
+          <Image  source={require('./assets/img/pomodoro.png')}  />
+        </TouchableOpacity>   
         
         <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Notícias') }>
           <Image  source={require('./assets/img/noticias.png')}  />
