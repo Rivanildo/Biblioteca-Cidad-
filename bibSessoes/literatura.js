@@ -44,7 +44,7 @@ export default function Literatura(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-   
+    
    
   },
 

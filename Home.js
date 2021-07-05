@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Image, View,ImageBackground, FlatList, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { Image, View,ImageBackground, FlatList, ScrollView, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity } from "react-native";
  
 
 
@@ -7,7 +7,8 @@ export default function Home(props) {
   return (
     <View style={styles.container}>
       <ImageBackground source={require('./assets/img/bg.png')} style={styles.img}>
-      
+      <SafeAreaView style={styles.container}>
+      <ScrollView style={styles.scrollView}> 
       <View style = {styles.btns}>
         <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('pomodoro') }>
           <Image  source={require('./assets/img/pomodoro.png')}  />
@@ -47,8 +48,8 @@ export default function Home(props) {
         </TouchableOpacity>  
        
       </View>
-
-
+      </ScrollView>
+      </SafeAreaView>
       </ImageBackground>
 
 
@@ -63,17 +64,15 @@ export default function Home(props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    
    
    
   },
 
   btns:{
     flexDirection: "row",
-    marginTop:260,
-    alignItems: 'center',
-    justifyContent: 'center',
-    width:400,
-    marginRight:100
+    alignSelf: "center",
+    
     
     
   },
@@ -81,18 +80,17 @@ const styles = StyleSheet.create({
   btns2:{
     flexDirection: "row",
     marginTop:20,
-    alignItems: 'center',
-    justifyContent: 'center',
-    width:400,
-    marginRight:100,
+    alignSelf:"center",
+    
+  
+    
   },
 
   btns3:{
     flexDirection: "column",
     marginTop:10,
-    alignItems: 'center',
-    justifyContent: 'center',
-    width:400,
+    alignSelf: "center",
+    
   
   },
 
@@ -100,6 +98,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "stretch",
     
-  }
+    
+  },
+
+  scrollView:{
+    marginTop:265,
+   
+  },
 
 });
