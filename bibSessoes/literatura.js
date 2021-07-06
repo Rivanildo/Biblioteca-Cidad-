@@ -13,28 +13,28 @@ export default function Literatura(props) {
     
       <ScrollView style={styles.scrollView}>
 
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Humanas') }>
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Literatura Africana') }>
         <Image  source={require('../assets/sessoes/lit_africana.png')} style={styles.img3} />
       </TouchableOpacity>  
 
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Naturezas') }>
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Literatura Americana') }>
        <Image  source={require('../assets/sessoes/lit_americana.png')} style={styles.img3} />
       </TouchableOpacity>
       
       
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Matematica') }>
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Literatura Brasileira') }>
       <Image  source={require('../assets/sessoes/lit_brasileira.png')} style={styles.img3} />
       </TouchableOpacity>  
 
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Dicionarios') }>
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Literatura Infanto Juvenil') }>
         <Image  source={require('../assets/sessoes/lit_infantil.png')} style={styles.img3} />
       </TouchableOpacity>  
       
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Empreendedorismo') }>
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Mulheres Negras') }>
         <Image  source={require('../assets/sessoes/lit_mulheres_negras.png')} style={styles.img3} />
       </TouchableOpacity>
 
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('TecEstudos') }>
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Mulheres Paraibanas') }>
        <Image  source={require('../assets/sessoes/lit_mulheres_paraibanas.png')} style={styles.img3} />
       </TouchableOpacity>
       

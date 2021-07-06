@@ -34,7 +34,7 @@ export default function biblioteca(props) {
         <Image  source={require('./assets/sessoes/empree_inovacao.png')} style={styles.img3} />
       </TouchableOpacity>
 
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('TecEstudos') }>
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Tecnicas de Estudo') }>
        <Image  source={require('./assets/sessoes/te_estudos.png')} style={styles.img3} />
       </TouchableOpacity>
       

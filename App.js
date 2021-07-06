@@ -27,6 +27,13 @@ import Midias from './bibSessoes/midias';
 import Realidade from './bibSessoes/realidadeVirtual';
 import TecEstudos from './bibSessoes/tecEstudos';
 
+import lit_africana from './bibSessoes/lit_africana';
+import lit_americana from './bibSessoes/lit_americana';
+import lit_brasileira from './bibSessoes/lit_brasileira';
+import lit_infantil from './bibSessoes/lit_infantil';
+import lit_mulheres_negras from './bibSessoes/lit_mulheres_negras';
+import lit_mulheres_paraibanas from './bibSessoes/lit_mulheres_paraibanas';
+
 export default function App() {
   const Stack = createStackNavigator();
 
@@ -53,7 +60,14 @@ export default function App() {
         <Stack.Screen options={{headerShown: true}} name="Manga" component={Manga} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Midias" component={Midias} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Realidade Virtual" component={Realidade} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
-        <Stack.Screen options={{headerShown: true}} name="TecEstudos" component={TecEstudos} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Tecnicas de Estudo" component={TecEstudos} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+      
+        <Stack.Screen options={{headerShown: true}} name="Literatura Africana" component={lit_africana} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Literatura Americana" component={lit_americana} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Literatura Brasileira" component={lit_brasileira} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Literatura Infanto Juvenil" component={lit_infantil} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Mulheres Negras" component={lit_mulheres_negras} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Mulheres Paraibanas" component={lit_mulheres_paraibanas} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
       </Stack.Navigator>
     </NavigationContainer>
 
