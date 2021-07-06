@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   },
 
   scrollView:{
-    marginTop:265,
+    marginTop:250,
    
   },
 
