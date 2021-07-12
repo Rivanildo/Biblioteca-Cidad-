@@ -12,12 +12,29 @@ export default function noticias(props) {
       <SafeAreaView style={styles.container}>
     
       <ScrollView style={styles.scrollView}>
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.google.com/")}>
-          
-          
-               
-        </Text>
        
+        <Text style={styles.text}>
+          Enquanto não atualizamos essa página, acesse os links abaixo nos encontre pelas redes sociais ;)
+        </Text>
+
+         <View style = {styles.btns}>
+        
+        
+
+        <TouchableOpacity style ={styles.button} onPress={()=> Linking.openURL("https://www.facebook.com/escolacidadaintegralpb/") }>
+          <Image  source={require('./assets/img/FACEBOOK.png')}  />
+        </TouchableOpacity> 
+        <TouchableOpacity style ={styles.button} onPress={()=> Linking.openURL("https://www.instagram.com/ecipb/") }>
+          <Image  source={require('./assets/img/INSTAGRAM.png')}  />
+        </TouchableOpacity>  
+        <TouchableOpacity style ={styles.button} onPress={()=> Linking.openURL("https://www.youtube.com/channel/UC6Kpg2FUEx1kRJX3xOqdmZg/featured") }>
+          <Image  source={require('./assets/img/YOUTUBE.png')}  />
+        </TouchableOpacity>  
+        
+       
+      </View> 
+
+
       </ScrollView>
     </SafeAreaView>
     
@@ -37,7 +54,18 @@ const styles = StyleSheet.create({
    
    
   },
+  btns:{
+    
+    flexDirection: "column",
+    alignSelf: "center",
+    
+    
+    
+  },
 
+  button:{
+      marginTop:20,
+  },
 
   img:{
     flex: 1,
@@ -47,14 +75,20 @@ const styles = StyleSheet.create({
 
   
   text: {
-    fontSize: 80,
-    marginTop: 40,
+    textAlign:"center",
+    
+    fontSize: 20,
+    marginLeft:10,
+    marginRight:15,
+    marginBottom:10,
     color: "white",
+
+  
 
   },
   scrollView:{
-    marginBottom:120,
+    marginTop:170,
+    marginBottom:110,
   },
-
 
 });

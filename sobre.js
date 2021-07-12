@@ -28,7 +28,23 @@ Além dos títulos divididos por áreas de conhecimento, também foram disponibi
 É fundamental destacar que toda a idealização da Biblioteca esteve comprometida com o respeito aos direitos humanos. Desse modo, buscamos possibilitar, por meio desse instrumento, a difusão de valores  como a cidadania, a liberdade, a solidariedade e a diversidade cultural, visando à promoção de uma sociedade mais acessível, equitativa e livre de preconceitos.
                
         </Text>
-       
+        <Text style={styles.text} >
+
+        Idealização: Luiza Iolanda Cortez, Jonatta Sousa e Vivianne de Sousa
+        </Text>
+
+ <Text style={styles.text} >
+Curadoria: Luiza Iolanda Cortez, Jonatta Sousa, Vivianne de Sousa, Sandra Santos e Romário Amorim
+</Text>
+<Text style={styles.text} >
+Aplicativo: Rivanildo Santos
+</Text>
+<Text style={styles.text} >
+Arte e Designer: Francisco Jefferson
+</Text>
+
+
+
       </ScrollView>
     </SafeAreaView>
     

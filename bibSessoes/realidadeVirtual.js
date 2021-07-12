@@ -144,8 +144,13 @@ export default function Realidade(props) {
         MUSEU DO AMANHÃ (RIO DE JANEIRO)
         </Text>
 
-       
+        <Text style={styles.text2} >
+        Observatórios astronômicos pelo Mundo
+        </Text>    
 
+        <Text style={styles.text} onPress={() => Linking.openURL("https://www.eso.org/public/products/virtualtours/")}>
+        Observatórios astronômicos pelo Mundo
+        </Text>
 
 
 

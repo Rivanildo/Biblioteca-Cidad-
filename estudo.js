@@ -12,11 +12,17 @@ export default function estudo(props) {
       <SafeAreaView style={styles.container}>
     
       <ScrollView style={styles.scrollView}>
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.google.com/")}>
+      <Text style={styles.text} >
           
-          
-               
-        </Text>
+      Estudo Orientado integra a Parte Diversificada do Currículo
+dentro das inovações em conteúdo, método e gestão. O objetivo desse
+componente é “ensinar” o estudante a estudar, apoiá-lo e orientá-lo em
+seu estudo diário, por meio da utilização de técnicas de estudo que o
+auxiliarão em seu processo de aprendizagem. Além de assegurar o
+espaço adequado para o estudar, o Estudo Orientado visa à excelência
+acadêmica e à consecução do Projeto de Vida do estudante.
+      
+      </Text>
        
       </ScrollView>
     </SafeAreaView>
@@ -47,13 +53,19 @@ const styles = StyleSheet.create({
 
   
   text: {
-    fontSize: 80,
-    marginTop: 40,
+    textAlign:"justify",
+    fontSize: 20,
+    marginLeft:10,
+    marginRight:15,
+    marginBottom:10,
     color: "white",
+
+  
 
   },
   scrollView:{
-    marginBottom:120,
+    marginTop:170,
+    marginBottom:110,
   },
 
 

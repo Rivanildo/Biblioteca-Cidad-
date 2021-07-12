@@ -47,11 +47,11 @@ export default function biblioteca(props) {
       <Image  source={require('./assets/sessoes/literatura.png')} style={styles.img3} />
       </TouchableOpacity>
      
-     
-      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Midias') }>
-        <Image  source={require('./assets/sessoes/midias.png')} style={styles.img3} />
+     {/*
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Podcasts') }>
+        <Image  source={require('./assets/sessoes/podcast.png')} style={styles.img3} />
       </TouchableOpacity>
-
+     */}
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Realidade Virtual') }>
         <Image  source={require('./assets/sessoes/realidade_virtual.png')} style={styles.img3} />
       </TouchableOpacity>
@@ -60,7 +60,10 @@ export default function biblioteca(props) {
        
       </ScrollView>
     </SafeAreaView>
-    
+    <TouchableOpacity style ={styles.buttonP} onPress={()=> props.navigation.navigate('Podcasts') }>
+        <Image  source={require('./assets/sessoes/podcast.png')} style={styles.img3} />
+      </TouchableOpacity>
+
       </ImageBackground>
 
 
@@ -111,7 +114,7 @@ const styles = StyleSheet.create({
 
   },
   scrollView:{
-    marginBottom:100,
+    marginBottom:80,
     marginLeft:20,
     
   },

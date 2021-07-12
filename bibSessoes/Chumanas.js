@@ -17,7 +17,7 @@ export default function Humanans(props) {
         150 Termos para Entender Política (Cidadania)
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/mre000005.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/17kgcuBvHFiHo_cntj-rIeoyr46QMxCr_/view?usp=sharing")}>
         A cultura dos Povos Indígenas
         </Text>
 
@@ -25,7 +25,7 @@ export default function Humanans(props) {
         A Participação da Mulher Brasileira na Política
         </Text>
         
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/ue000235.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1t2eRRLKshpruHcJ6VQx1_gW_ZMWYGiWj/view?usp=sharing")}>
         brasil@povo.com: A luta contra a desigualdade na Sociedade da Informação    
         </Text>
 
@@ -37,15 +37,15 @@ export default function Humanans(props) {
         Celso Furtado: a esperança militante    
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.ideiaeditora.com.br/produto/corpos-higidos-o-limpo-e-o-sujo-na-paraiba-1912-1924-3a-edicao/")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1wiXHpAMq5RmH7pJ1KzLPcbcAy7znHRO4/view?usp=sharing")}>
         Corpos hígidos: o limpo e o sujo na Paraíba (1912-1924)
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/ue000158.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1-yfRNrXM8UZAKtEr3_o0nejY8l2WM052/view?usp=sharing")}>
         Direitos Humanos: novas dimensões e desafios
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/ue000123.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1i-mF-xycEvh1YFswgntEXsiXOoJhMKYR/view?usp=sharing")}>
         Educação para um futuro sustentável. Uma visão transdisciplinar para uma ação compartilhada
         </Text>
 
@@ -53,11 +53,11 @@ export default function Humanans(props) {
         Ensaios sobre racismos: pensamentos de fronteira
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.ideiaeditora.com.br/produto/ensino-de-historia-experiencia-e-interculturalidade/")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1n7R4eGWoDodZ44qOE8UDHCEv_NtApCwb/view?usp=sharing")}>
         Ensino de História: experiência e interculturalidade    
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/ue000072.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/17ayz26U5x9BDHahdEAQHiKw4XKdUK9EW/view?usp=sharing")}>
         Escrevendo a paz
         </Text>
         
@@ -73,11 +73,11 @@ export default function Humanans(props) {
         Introdução ao pensamento feminista negro / Por um feminismo para os 99%
         </Text>
         
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/ue000125.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/12al81WzBx9RVxVVMNacHjVCJnWvOYpJQ/view?usp=sharing")}>
         Jovens rumo à mudança
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/ue000077.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1J_n68o3AH3GetFGxTOhNB_jAlTazK8cd/view?usp=sharing")}>
         Juventude, juventudes: o que une e o que separa
         </Text>
 
@@ -85,7 +85,7 @@ export default function Humanans(props) {
         Mulheres que inspiram
         </Text>
         
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/ue000171.pdf")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1Q2WAzulhmnWfopRGI-cheo6mKtEIW8OD/view?usp=sharing")}>
         Na escola: oito jeitos de mudar o mundo (Nós podemos)
         </Text>
 
@@ -93,15 +93,16 @@ export default function Humanans(props) {
         O voto feminino no Brasil
         </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.ideiaeditora.com.br/produto/os-70-anos-da-declaracao-universal-dos-direitos-humanos-e-o-contexto-atual/")}>
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1gNEuq9AR1sFNOjI_gyA-b9NS5sAWCIJZ/view?usp=sharing")}>
         Os 70 anos da Declaração Universal dos Direitos Humanos e o Contexto Atual
         </Text>
 
         <Text style={styles.text} onPress={() => Linking.openURL("https://www.amazon.com.br/Representa%C3%A7%C3%B5es-culturais-ind%C3%ADgena-Desafios-contempor%C3%A2neos-ebook/dp/B01MQOD77X/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Representa%C3%A7%C3%B5es+culturais+da+Am%C3%A9rica+Ind%C3%ADgena%3A&qid=1624629807&s=books&sr=1-1")}>
         Representações culturais da América Indígena
         </Text>
-
-        
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1m9HWPb3Tvt4ZQTjfqCCD4uRnsJishFNo/view?usp=sharing")}>
+       Sou diferetne, mas quem não é? 
+        </Text>
        
       </ScrollView>
     </SafeAreaView>

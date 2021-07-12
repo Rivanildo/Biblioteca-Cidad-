@@ -23,7 +23,7 @@ import Dicionarios from './bibSessoes/dicionarios';
 import Empreendedorismo from './bibSessoes/empreendedorismo';
 import Literatura from './bibSessoes/literatura';
 import Manga from './bibSessoes/manga';
-import Midias from './bibSessoes/midias';
+import Podcasts from './bibSessoes/podcast';
 import Realidade from './bibSessoes/realidadeVirtual';
 import TecEstudos from './bibSessoes/tecEstudos';
 
@@ -58,7 +58,7 @@ export default function App() {
         <Stack.Screen options={{headerShown: true}} name="Empreendedorismo" component={Empreendedorismo} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Literatura" component={Literatura} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Manga" component={Manga} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
-        <Stack.Screen options={{headerShown: true}} name="Midias" component={Midias} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Podcasts" component={Podcasts} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Realidade Virtual" component={Realidade} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Tecnicas de Estudo" component={TecEstudos} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
       

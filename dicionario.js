@@ -33,55 +33,61 @@
    };
  
    render() {
-     return (
+    return(
+      <View>
+        <ImageBackground source={require('./assets/img/bg-dicionario.png')} style={styles.img}>
+            <Text>
+              Em construção
+            </Text>
 
+        </ImageBackground>
 
+      </View>
+    ); 
 
-
-
-
-
+    /*
+    return (
        <View style={styles.container}>
          <ImageBackground source={require('./assets/img/bg-dicionario.png')} style={styles.img}>
-          <Text style={styles.txt} >A</Text>
-          <ScrollView style={{ alignSelf: 'stretch' }}>
-            {
-              this.state.contents
-                ? this.state.contents.map((param, i) => {
-                  return (
-                    <DropDownItem
-                      key={i}
-                      style={styles.dropDownItem}
-                      contentVisible={false}
-                      invisibleImage={IC_ARR_DOWN}
-                      visibleImage={IC_ARR_UP}
-                      header={
-                        <View style={styles.header}>
-                          <Text style={{
-                            fontSize: 16,
-                            color: 'blue',
-                          }}>{param.title}</Text>
-                        </View>
-                      }
-                    >
-                      <Text style={[
-                        styles.txt,
-                        {
-                          fontSize: 20,
-                        },
-                      ]}>
-                        {param.body}
-                      </Text>
-                    </DropDownItem>
-                  );
-                })
-                : null
-            }
-            <View style={{ height: 96 }}/>
-          </ScrollView>
-        </ImageBackground>
-       </View>
-     );
+           <Text style={styles.txt} >A</Text>
+           <ScrollView style={{ alignSelf: 'stretch' }}>
+             {
+               this.state.contents
+                 ? this.state.contents.map((param, i) => {
+                   return (
+                     <DropDownItem
+                       key={i}
+                       style={styles.dropDownItem}
+                       contentVisible={false}
+                       invisibleImage={IC_ARR_DOWN}
+                       visibleImage={IC_ARR_UP}
+                       header={
+                         <View style={styles.header}>
+                           <Text style={{
+                             fontSize: 16,
+                             color: 'blue',
+                           }}>{param.title}</Text>
+                         </View>
+                       }
+                     >
+                       <Text style={[
+                         styles.txt,
+                         {
+                           fontSize: 20,
+                         },
+                       ]}>
+                         {param.body}
+                       </Text>
+                     </DropDownItem>
+                   );
+                 })
+                 : null
+             }
+             <View style={{ height: 96 }} />
+           </ScrollView>
+         </ImageBackground>
+       </View> 
+     ); */
    }
  }
  
