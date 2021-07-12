@@ -22,10 +22,12 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF",
-        "package": "com.eci.bibliotecacidada",
-        "versionCode": 1
-      }
+        "backgroundColor": "#FFFFFF"
+        
+        
+      },
+      "versionCode": 1,
+      "package": "com.eci.bibliotecacidada"
     },
     "web": {
       "favicon": "./assets/favicon.png"
