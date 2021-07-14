@@ -12,7 +12,7 @@ export default function Home(props) {
       
       <View style = {styles.btns3}>
         <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Biblioteca') }>
-          <Image  source={require('./assets/img/a_biblioteca.png')}  />
+          <Image  source={require('./assets/img/biblioteca_01.png')}  />
         </TouchableOpacity>  
       
       <View style = {styles.btns}>
@@ -47,7 +47,7 @@ export default function Home(props) {
       
         
         <TouchableOpacity style ={styles.button4} onPress={()=> props.navigation.navigate('Dicionário') }>
-          <Image  source={require('./assets/img/manual.png')}  />
+          <Image  source={require('./assets/img/manual_01.png')}  />
         </TouchableOpacity>  
        
       </View>
