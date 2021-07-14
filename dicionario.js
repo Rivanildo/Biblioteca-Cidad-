@@ -7,9 +7,11 @@
  */
 
  import React, { Component } from 'react';
- import { Platform, StyleSheet, Text, View, ScrollView, Image,ImageBackground } from 'react-native';
+ import { LogBox, Platform, StyleSheet, Text, View, ScrollView, Image,ImageBackground } from 'react-native';
  import DropDownItem from 'react-native-drop-down-item';
- 
+
+LogBox.ignoreWarnings(['Animated: `useNativeDriver` was not specified. This is a required option and must be explicitly set to `true` or `false`']);
+
  const IC_ARR_DOWN = require('./icons/ic_arr_down.png');
  const IC_ARR_UP = require('./icons/ic_arr_up.png');
  
@@ -31,26 +33,40 @@
        },
      ],
    };
+
+
  
    render() {
-    return(
-      <View>
-        <ImageBackground source={require('./assets/img/bg-dicionario.png')} style={styles.img}>
-            <Text>
-              Em construção
-            </Text>
-
-        </ImageBackground>
-
-      </View>
-    ); 
-
-    /*
+  
     return (
        <View style={styles.container}>
          <ImageBackground source={require('./assets/img/bg-dicionario.png')} style={styles.img}>
-           <Text style={styles.txt} >A</Text>
+
            <ScrollView style={{ alignSelf: 'stretch' }}>
+
+              <Text style={styles.txt1} >
+              Por que existir um Manual de Linguagem Cidadã?
+
+              </Text>
+              <Text style={styles.txt} >
+              O Manual de Linguagem Cidadã nasceu a partir de uma inquietação relacionada ao uso legítimo, pertinente e não-excludente de palavras, termos e expressões, em documentos de interesse público que fazem parte da rotina escolar da Rede Estadual de Educação.
+
+              </Text>
+              <Text style={styles.txt} >
+              A ideia fundamental é que, inspirados/as pelo princípio da equidade, possamos utilizar, nos textos produzidos pelas escolas e pelas instituições públicas, uma linguagem plural, inclusiva e não-violenta.
+              </Text>
+              <Text style={styles.txt} >
+              É importante destacar que esse material é um instrumento facilitador e orientador. Afinal, todas e todos nós estamos aprendendo!
+              </Text>
+
+
+              <Text style={styles.txt1} >
+              Orientações
+
+1- Ênfase na equidade de gênero e na inclusão
+      
+              </Text>
+
              {
                this.state.contents
                  ? this.state.contents.map((param, i) => {
@@ -58,6 +74,7 @@
                      <DropDownItem
                        key={i}
                        style={styles.dropDownItem}
+                     
                        contentVisible={false}
                        invisibleImage={IC_ARR_DOWN}
                        visibleImage={IC_ARR_UP}
@@ -87,7 +104,7 @@
            </ScrollView>
          </ImageBackground>
        </View> 
-     ); */
+     ); 
    }
  }
  
