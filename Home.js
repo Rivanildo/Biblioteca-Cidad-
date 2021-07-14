@@ -9,10 +9,14 @@ export default function Home(props) {
       <ImageBackground source={require('./assets/img/bg2.png')} style={styles.img}>
       <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}> 
+      
+      <View style = {styles.btns3}>
+        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Biblioteca') }>
+          <Image  source={require('./assets/img/a_biblioteca.png')}  />
+        </TouchableOpacity>  
+      
       <View style = {styles.btns}>
         
-        
-
         <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Estudo Orientado') }>
           <Image  source={require('./assets/img/EO.png')}  />
         </TouchableOpacity> 
@@ -40,13 +44,10 @@ export default function Home(props) {
 
       </View>
 
-      <View style = {styles.btns3}>
-        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Biblioteca') }>
-          <Image  source={require('./assets/img/BIBLIOTECA.png')}  />
-        </TouchableOpacity>  
+      
         
-        <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Dicionário') }>
-          <Image  source={require('./assets/img/DICIONARIO.png')}  />
+        <TouchableOpacity style ={styles.button4} onPress={()=> props.navigation.navigate('Dicionário') }>
+          <Image  source={require('./assets/img/manual.png')}  />
         </TouchableOpacity>  
        
       </View>
@@ -72,6 +73,7 @@ const styles = StyleSheet.create({
   },
 
   btns:{
+    marginTop:20,
     flexDirection: "row",
     alignSelf: "center",
     
@@ -102,6 +104,14 @@ const styles = StyleSheet.create({
     
     
   },
+
+  button4:{
+    marginTop:40,
+    
+    
+    
+  },
+
 
   scrollView:{
     marginTop:265,
