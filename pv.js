@@ -50,7 +50,9 @@ export default function pv(props) {
         </Text>
       </ScrollView>
     </SafeAreaView>
-    
+    <TouchableOpacity style ={styles.button} onPress={()=> Linking.openURL("https://drive.google.com/drive/u/1/folders/1b6ZEfi6smgYWnEyDPgFzZiJLrdaPPEkv") }>
+          <Image  source={require('./assets/img/drive.png')}  />
+        </TouchableOpacity> 
       </ImageBackground>
 
 
@@ -89,7 +91,7 @@ const styles = StyleSheet.create({
   },
   scrollView:{
     marginTop:170,
-    marginBottom:110,
+    marginBottom:10,
   },
 
 

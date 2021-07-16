@@ -15,7 +15,7 @@ export default function estudo(props) {
       <Text style={styles.text} >
           
       Estudo Orientado integra a Parte Diversificada do Currículo
-dentro das inovações em conteúdo, método e gestão. O objetivo desse
+dentro das inovações em conteúdo, método e gestão.O objetivo desse
 componente é “ensinar” o estudante a estudar, apoiá-lo e orientá-lo em
 seu estudo diário, por meio da utilização de técnicas de estudo que o
 auxiliarão em seu processo de aprendizagem. Além de assegurar o
@@ -26,6 +26,9 @@ acadêmica e à consecução do Projeto de Vida do estudante.
        
       </ScrollView>
     </SafeAreaView>
+    <TouchableOpacity style ={styles.button} onPress={()=> Linking.openURL("https://drive.google.com/drive/u/1/folders/1I4MuksbXRagw1xGenYIMeUBKrDGwLuN5") }>
+          <Image  source={require('./assets/img/drive.png')}  />
+        </TouchableOpacity> 
     
       </ImageBackground>
 
@@ -65,7 +68,7 @@ const styles = StyleSheet.create({
   },
   scrollView:{
     marginTop:170,
-    marginBottom:110,
+    marginBottom:10,
   },
 
 

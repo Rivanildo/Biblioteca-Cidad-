@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     
   },
   img3:{
-    marginTop:30,
+    marginTop:20,
     
     
   },
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
 
   },
   scrollView:{
-    marginBottom:80,
+    marginBottom:10,
     marginLeft:20,
     
   },

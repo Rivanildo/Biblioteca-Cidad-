@@ -13,18 +13,70 @@ export default function lit_africana(props) {
       <SafeAreaView style={styles.container}>
     
       <ScrollView style={styles.scrollView}>
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.amazon.com.br/Termos-para-Entender-Pol%C3%ADtica-Cidadania-ebook/dp/B08JS89CNS/ref=pd_sim_5/146-6739415-5059056?pd_rd_w=PCW2g&pf_rd_p=e9306f50-1947-4ac4-b858-68213661b333&pf_rd_r=SHY5CKM9P396N8XGAHHG&pd_rd_r=2fbe1c60-b55b-484a-84e6-403dec3b2e09&pd_rd_wg=uJQvW&pd_rd_i=B08JS89CNS&psc=1")}>
-        150 Termos para Entender Política (Cidadania)
-        </Text>
+       <Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1W6_qO_lHD9sMg6zMnFlbvUKFIinb0DFc/view?usp=sharing ")}>
+Work Projects Administration – Slave Narratives
+  </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("http://www.dominiopublico.gov.br/download/texto/mre000005.pdf")}>
-        A cultura dos Povos Indígenas
-        </Text>
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/12GNsNqtF87XzsMW_2zl6ASNjJ1gkV_Ap/view?usp=sharing ")}>
+William Still – The underground railroad
+  </Text>
 
-        <Text style={styles.text} onPress={() => Linking.openURL("https://www.amazon.com.br/Participa%C3%A7%C3%A3o-Mulher-Brasileira-Pol%C3%ADtica-ebook/dp/B07T753L8X/ref=reads_cwrtbar_2/146-6739415-5059056?pd_rd_w=yQChx&pf_rd_p=f0989065-fdf0-44f6-89ba-12ac8c8cc0a8&pf_rd_r=SHY5CKM9P396N8XGAHHG&pd_rd_r=2fbe1c60-b55b-484a-84e6-403dec3b2e09&pd_rd_wg=uJQvW&pd_rd_i=B07T753L8X&psc=1")}>
-        A Participação da Mulher Brasileira na Política
-        </Text>
-        
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1kmZK2Y6NZigai1ATginNxJfh77DL-qS4/view?usp=sharing ")}>
+W. E. B. DuBois – Darkwater
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1X7hXl-2W3W9equ9d6ZcqCxF4jvOoa8sA/view?usp=sharing ")}>
+W. E. B. DuBois – The Negro
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1L4CdZsCrQYfBWem0nRTbUzD_QTbjMaYU/view?usp=sharing ")}>
+W. E. B. DuBois – As almas do povo negro
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1z8rTPC6yCSGW1d1PSg-h13OQiV-k_qay/view?usp=sharing ")}>
+Various Authors – Stories by English Authors in Africa
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1aJ5clTTSnoVzuIJGzTjEZ53saJ7nZRwZ/view?usp=sharing ")}>
+Solomon Northup – Twelve years a slave
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1BpOmnWm3E4wRcafcHMxfSssroXHcN-9W/view?usp=sharing ")}>
+Phillis Wheatley – Poems
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1faj9dWEKsgxHUZjEvv6yWyUAjrWA_mtk/view?usp=sharing ")}>
+Linda Brent – Incidents in the life of a slave girl
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1vPiJimbxJZDXKHvqF7Vo_0IugN9gmIVW/view?usp=sharing ")}>
+Kelly Miller – Progress and achievements of the colored people
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/19tmWJEspbJePVogdUw9iKr-xiq-Fc7l-/view?usp=sharing ")}>
+James A. Honeÿ – South African folk tales
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1ya9q8vHSZkxzDUyOLn4aT_npCZtky1AZ/view?usp=sharing ")}>
+Ida B. Wells-Barnett – The red record
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1xG0C0LsYrP74-QyA-xFuo25paAEpdhPW/view?usp=sharing ")}>
+Harriet Beecher Stowe – Uncle Tom’s cabin
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/15oTxzzrle3XmNN5FnsxKVoIef5s5Vqcd/view?usp=sharing ")}>
+Frederick Douglas – Narrative of the life of Frederick Douglass
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1rUdTxXW1nCmRvNuCSA4ABSmXC1msP5UE/view?usp=sharing ")}>
+Charles W. Chesnutt – The marrow of tradition
+  </Text>
+
+<Text style={styles.text} onPress={() => Linking.openURL(" https://drive.google.com/file/d/1IijaKyfbWIdHZKwkCQAFBrCbCz3goQ4O/view?usp=sharing ")}>
+Booker T. Washington – Up from slavery
+  </Text>
+
 
         
        

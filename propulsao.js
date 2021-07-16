@@ -48,6 +48,9 @@ estabelecimento de metas, prazos e responsáveis por sua execução.
        
       </ScrollView>
     </SafeAreaView>
+    <TouchableOpacity style ={styles.button} onPress={()=> Linking.openURL("https://drive.google.com/drive/u/1/folders/1yMS9VAEalcERZihp5OGh_L8IySXFJER5") }>
+          <Image  source={require('./assets/img/drive.png')}  />
+        </TouchableOpacity> 
     
       </ImageBackground>
 
@@ -87,7 +90,7 @@ const styles = StyleSheet.create({
   },
   scrollView:{
     marginTop:170,
-    marginBottom:110,
+    marginBottom:10,
   },
 
 
