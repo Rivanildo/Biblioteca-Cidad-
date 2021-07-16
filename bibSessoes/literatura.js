@@ -33,12 +33,12 @@ export default function Literatura(props) {
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Mulheres Negras') }>
         <Image  source={require('../assets/sessoes/lit_mulheres_negras.png')} style={styles.img3} />
       </TouchableOpacity>
-
+      {/* 
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Mulheres Paraibanas') }>
        <Image  source={require('../assets/sessoes/lit_mulheres_paraibanas.png')} style={styles.img3} />
       </TouchableOpacity>
       
-      
+      */}
       
       
        
