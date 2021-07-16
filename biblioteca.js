@@ -8,7 +8,7 @@ export default function biblioteca(props) {
     <View style={styles.container}>
       
       <ImageBackground source={require('./assets/img/bg-biblioteca.png')} style={styles.img}>
-      <Image  source={require('./assets/img/BIBLIOTECA.png')} style={styles.img2} />
+      <Image  source={require('./assets/img/biblioteca_01.png')} style={styles.img2} />
       <SafeAreaView style={styles.container}>
     
       <ScrollView style={styles.scrollView}>
@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
   },
 
   img2:{
+    marginTop:30,
     marginLeft: 35,
     
   },
@@ -114,7 +115,8 @@ const styles = StyleSheet.create({
 
   },
   scrollView:{
-    marginBottom:10,
+    marginTop:15,
+    marginBottom:0,
     marginLeft:20,
     
   },

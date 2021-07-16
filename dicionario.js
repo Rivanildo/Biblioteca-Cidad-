@@ -124,7 +124,7 @@
        <View style={styles.container}>
          <ImageBackground source={require('./assets/img/bg-dicionario.png')} style={styles.img}>
 
-         <Image  source={require('./assets/img/manual.png')} />
+         <Image  source={require('./assets/img/manual_01.png')} style={{ marginTop:20}} />
 
            <ScrollView style={{ alignSelf: 'stretch', marginTop:55, marginBottom:140, }}>
 
@@ -239,7 +239,7 @@ Temos o intuito de sempre atualizar e alimentar esse material para o enriquecime
                          <View style={styles.header}>
                            <Text style={{
                             
-                             fontSize: 16,
+                             fontSize: 20,
                              color: 'blue',
                            }}>{param.title}</Text>
                          </View>
@@ -249,6 +249,7 @@ Temos o intuito de sempre atualizar e alimentar esse material para o enriquecime
                          styles.txt,
                          {
                            fontSize: 20,
+                           color:'white',
                           textAlign:"justify",
                          },
                        ]}>
