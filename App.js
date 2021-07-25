@@ -35,6 +35,7 @@ import lit_brasileira from './bibSessoes/lit_brasileira';
 import lit_infantil from './bibSessoes/lit_infantil';
 import lit_mulheres_negras from './bibSessoes/lit_mulheres_negras';
 import lit_mulheres_paraibanas from './bibSessoes/lit_mulheres_paraibanas';
+import teses from './bibSessoes/teses';
 
 export default function App() {
   const Stack = createStackNavigator();
@@ -70,6 +71,7 @@ export default function App() {
         <Stack.Screen options={{headerShown: true}} name="Literatura Infanto Juvenil" component={lit_infantil} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Mulheres Negras" component={lit_mulheres_negras} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Mulheres Paraibanas" component={lit_mulheres_paraibanas} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Teses e Dissertações" component={teses} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
       </Stack.Navigator>
     </NavigationContainer>
 

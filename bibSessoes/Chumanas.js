@@ -101,7 +101,7 @@ export default function Humanans(props) {
         Representações culturais da América Indígena
         </Text>
         <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1m9HWPb3Tvt4ZQTjfqCCD4uRnsJishFNo/view?usp=sharing")}>
-       Sou diferetne, mas quem não é? 
+       Sou diferente, mas quem não é? 
         </Text>
        
       </ScrollView>

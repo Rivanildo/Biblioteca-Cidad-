@@ -46,7 +46,11 @@ export default function biblioteca(props) {
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Literatura') }>
       <Image  source={require('./assets/sessoes/literatura.png')} style={styles.img3} />
       </TouchableOpacity>
-     
+      
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Teses e Dissertações') }>
+      <Image  source={require('./assets/sessoes/teses.png')} style={styles.img3} />
+      </TouchableOpacity>
+
      {/*
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Podcasts') }>
         <Image  source={require('./assets/sessoes/podcast.png')} style={styles.img3} />
