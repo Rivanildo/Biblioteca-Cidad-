@@ -37,6 +37,11 @@ export default function Humanans(props) {
         Celso Furtado: a esperança militante    
         </Text>
 
+        <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1k3JTvwSJJrPpFTtx6_171uoPWaABeAmg/view?usp=sharing")}>
+        Cidadania e Democracia desde a escola    
+        </Text>
+
+
         <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1wiXHpAMq5RmH7pJ1KzLPcbcAy7znHRO4/view?usp=sharing")}>
         Corpos hígidos: o limpo e o sujo na Paraíba (1912-1924)
         </Text>
