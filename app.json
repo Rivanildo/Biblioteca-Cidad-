@@ -4,7 +4,7 @@
     "slug": "Biblioteca-Cidada",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/img/icon2.png",
+    "icon": "./assets/img/icon3.png",
     "splash": {
       "image": "./assets/img/splash.png",
       "resizeMode": "cover",
@@ -21,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/img/icon2.png",
+        "foregroundImage": "./assets/img/icon3.png",
         "backgroundColor": "#FFFFFF"
         
         
