@@ -37,6 +37,9 @@ import lit_mulheres_negras from './bibSessoes/lit_mulheres_negras';
 import lit_mulheres_paraibanas from './bibSessoes/lit_mulheres_paraibanas';
 import teses from './bibSessoes/teses';
 
+import Trabalhos from '.bibSessoes/trabalhosictcc';
+
+
 export default function App() {
   const Stack = createStackNavigator();
 
@@ -57,6 +60,7 @@ export default function App() {
         <Stack.Screen options={{headerShown: true}} name="Humanas" component={Humanas} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Matematica" component={Matematica} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Naturezas" component={Naturezas} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
+        <Stack.Screen options={{headerShown: true}} name="Trabalhos" component={Trabalhos} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Dicionarios" component={Dicionarios} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Empreendedorismo" component={Empreendedorismo} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
         <Stack.Screen options={{headerShown: true}} name="Literatura" component={Literatura} options={{headerStyle:{backgroundColor: "#2a6dc7" } }} />
