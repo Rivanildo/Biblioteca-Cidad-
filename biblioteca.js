@@ -26,6 +26,10 @@ export default function biblioteca(props) {
       <Image  source={require('./assets/sessoes/conhec_matematicos.png')} style={styles.img3} />
       </TouchableOpacity>  
 
+      <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Trabalhos') }>
+      <Image  source={require('./assets/sessoes/conhec_matematicos.png')} style={styles.img3} />
+      </TouchableOpacity>  
+
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Dicionarios') }>
         <Image  source={require('./assets/sessoes/dicionarios.png')} style={styles.img3} />
       </TouchableOpacity>  

@@ -149,6 +149,11 @@ export default function podcast(props) {
          LGBT no Ar 
         </Text>
 
+        <Text style={styles.text} onPress={() => Linking.openURL("https://open.spotify.com/show/2z9wrw5l06sXSaQMyOjYgy?si=ZvD029gZToazXsMTFuKkyw&utm_source=copy-link")}>
+         Hospedagem aonde quer que eu vá 
+        </Text>
+
+
         
         
 

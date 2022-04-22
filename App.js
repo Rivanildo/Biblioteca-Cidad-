@@ -36,8 +36,8 @@ import lit_infantil from './bibSessoes/lit_infantil';
 import lit_mulheres_negras from './bibSessoes/lit_mulheres_negras';
 import lit_mulheres_paraibanas from './bibSessoes/lit_mulheres_paraibanas';
 import teses from './bibSessoes/teses';
+import Trabalhos from './bibSessoes/trabalhosictcc';
 
-import Trabalhos from '.bibSessoes/trabalhosictcc';
 
 
 export default function App() {
