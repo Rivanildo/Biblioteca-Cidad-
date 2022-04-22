@@ -27,7 +27,7 @@ export default function biblioteca(props) {
       </TouchableOpacity>  
 
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Trabalhos') }>
-      <Image  source={require('./assets/sessoes/conhec_matematicos.png')} style={styles.img3} />
+      <Image  source={require('./assets/sessoes/destaque8.png')} style={styles.img3} />
       </TouchableOpacity>  
 
       <TouchableOpacity style ={styles.button} onPress={()=> props.navigation.navigate('Dicionarios') }>

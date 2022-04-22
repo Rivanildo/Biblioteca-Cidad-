@@ -8,18 +8,18 @@ export default function trabalhosictcc(props) {
 <View style={styles.container}>
       
       <ImageBackground source={require('../assets/img/bg-biblioteca.png')} style={styles.img}>
-      <Image  source={require('../assets/sessoes/dicionarios.png')} style={styles.img2} />
+      <Image  source={require('../assets/sessoes/destaque8.png')} style={styles.img2} />
       
       <SafeAreaView style={styles.container}>
     
       <ScrollView style={styles.scrollView}>
         <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1sWv1vm6yhi5NDQpzaIqOv-G2f2GoptL7/view?usp=sharing")}>
-        Destaques Intervenção Comunitária
+        Destaques Intervenção Comunitária 2021
 
         </Text>
 
          <Text style={styles.text} onPress={() => Linking.openURL("https://drive.google.com/file/d/1AmRZW2fxNypnHq3Jts4B6uPKu2A46gsZ/view?usp=sharing")}>
-        Destaques TCC
+        Destaques TCC 2021
 
         </Text>
         
